@@ -159,6 +159,7 @@ transition: 100ms;
       overflow-y: hidden;
       transition: 0.5s;
     }
+    
     .menu a {
       padding: 1rem 0;
       margin-inline: 1rem;
@@ -211,31 +212,26 @@ transition: 100ms;
 
   /* === Página Sobre ==*/
   .card {
-    padding:0px;
-    transition: 3s ease-in-out;
-    color: black;
-
-    display: flex;
-    flex-direction: column;
-
     background-color: white;
     height: 470px;
-    width: 430px;
-    margin-left: 36%;
-    
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top:5%;
     margin-bottom: 10px;
     
-    float: left;
+    padding-left: 15px;
+    padding-right: 13px;
+    padding-top: 20px;
+  
     
-    transition: transform 1s;
-    transform: translateX(2) scale(0.9);
-    
+
     border-radius: 30px;
     
     
     box-shadow: 15px 15px 30px #bebebe
-    -15px -15px 30px rgb(246, 255, 246);
+             -15px -15px 30px rgb(246, 255, 246);
+    
   }
 
  
@@ -264,9 +260,9 @@ transition: 100ms;
     height: 4.8em;
    
     border-radius: 15px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 30px;
-    margin-left: auto;
+    margin-left: 40%;
     margin-right: auto;
     
   }
@@ -291,7 +287,8 @@ transition: 100ms;
   .card button {
     padding: 0.8em 1.7em;
    
-    margin: auto;
+    margin-left: 120px;
+    margin-top: 30px;
     
     border-radius: 25px;
     border: none;
